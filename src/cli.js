@@ -16,7 +16,7 @@ switch (command) {
   case undefined:
   case "-h":
   case "--help":
-    console.log(`Usage: lsp-togo-css [--stdio|--node-ipc|--socket=<number>]`);
+    console.log(`Usage: ${name} [--stdio|--node-ipc|--socket=<number>]`);
     break;
   case "-v":
   case "-version":
