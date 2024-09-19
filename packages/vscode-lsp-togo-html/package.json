@@ -1,0 +1,30 @@
+{
+  "name": "vscode-lsp-togo-html",
+  "version": "2024.9.18-pre",
+  "description": "VSCode HTML Language Server ToGo",
+  "contributors": [
+    "notpeter"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "main": "dist/node/htmlServer.js",
+  "bin": {
+    "lsp-togo-html": "bin/lsp-togo-html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vscode/l10n": "^0.0.18",
+    "mocha": "^10.7.3",
+    "typescript": "^5.6.2",
+    "vscode-css-languageservice": "^6.3.1",
+    "vscode-html-languageservice": "^5.3.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.12",
+    "vscode-uri": "^3.0.8"
+  }
+}

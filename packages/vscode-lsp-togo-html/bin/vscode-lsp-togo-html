@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const MIN_NODE = 'v20.0.0';
+const MIN_NODE = "v20.0.0";
 if (process.version < MIN_NODE) {
   console.error(`Node >={MIN_NODE} required`);
   process.exit(1);
@@ -25,6 +25,6 @@ switch (command) {
     break;
   default:
     console.error(`Starting ${version_string} with ${command}`);
-    require(path.join(main));
+    require(path.join("..", main));
     break;
 }

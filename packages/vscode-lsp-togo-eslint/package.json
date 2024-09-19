@@ -1,5 +1,5 @@
 {
-  "name": "lsp-togo-eslint",
+  "name": "vscode-lsp-togo-eslint",
   "version": "2024.9.18-pre",
   "contributors": ["notpeter"],
   "main": "dist/eslintServer.js",
