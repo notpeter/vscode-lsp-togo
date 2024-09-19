@@ -1,0 +1,14 @@
+{
+  "languages": {
+    "Markdown": {
+      "soft_wrap": "editor_width",
+      "format_on_save": "on"
+    },
+    "JSON": {
+      "format_on_save": "on"
+    }
+  },
+  "file_types": {
+    "Javascript": ["packages/*/bin/*"]
+  }
+}
