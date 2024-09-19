@@ -5,16 +5,13 @@
   "contributors": [
     "notpeter"
   ],
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "files": [
     "bin",
     "dist"
   ],
   "main": "dist/node/jsonServerMain.js",
   "bin": {
-    "lsp-togo-json": "bin/lsp-togo-json"
+    "vscode-lsp-togo-json": "bin/vscode-lsp-togo-json"
   },
   "license": "MIT",
   "dependencies": {

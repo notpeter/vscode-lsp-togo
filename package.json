@@ -1,28 +1,23 @@
 {
-  "name": "lsp-togo",
-  "version": "2024.9.18-pre",
-  "description": "VSCode Language Servers To-Go",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/notpeter/lsp-togo.git"
-  },
-  "keywords": [
-    "lsp"
-  ],
+  "name": "vscode-lsp-togo-workspace",
+  "homepage": "https://github.com/notpeter/lsp-togo",
+  "description": "VSCode Language Servers Packaged To-Go",
   "contributors": [
     "notpeter",
     "hrsh7th"
   ],
   "license": "MIT",
-  "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/vscode-lsp-togo-css",
+    "packages/vscode-lsp-togo-eslint",
+    "packages/vscode-lsp-togo-html",
+    "packages/vscode-lsp-togo-json"
   ],
-  "homepage": "https://github.com/notpeter/lsp-togo",
-  "dependencies": {
-    "typescript": "^5.6.2"
-  },
-  "peerDependencies": {
-    "depcheck": "^1.4.7"
+  "devDependencies": {
+    "vscode-lsp-togo-css": "file:./packages/vscode-lsp-togo-css",
+    "vscode-lsp-togo-eslint": "file:./packages/vscode-lsp-togo-eslint",
+    "vscode-lsp-togo-html": "file:./packages/vscode-lsp-togo-html",
+    "vscode-lsp-togo-json": "file:./packages/vscode-lsp-togo-json",
+    "depcheck": "1.4.7"
   }
 }

@@ -1,11 +1,19 @@
 {
   "name": "vscode-lsp-togo-eslint",
   "version": "2024.9.18-pre",
-  "contributors": ["notpeter"],
+  "description": "VSCode ESLint Language Server ToGo",
+  "contributors": [
+    "notpeter"
+  ],
+  "files": [
+    "bin",
+    "dist"
+  ],
   "main": "dist/eslintServer.js",
-  "bin": {"vscode-eslint-language-server": "bin/vscode-eslint-language-server"},
+  "bin": {
+    "vscode-lsp-togo-eslint": "bin/vscode-lsp-togo-eslint"
+  },
   "license": "MIT",
-  "description": "ESLint VSCode LSP ToGo",
   "dependencies": {
     "semver": "^7.6.3",
     "vscode-languageserver": "^9.0.1",

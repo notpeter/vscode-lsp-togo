@@ -5,24 +5,19 @@
   "contributors": [
     "notpeter"
   ],
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "files": [
     "bin",
     "dist"
   ],
   "main": "dist/node/cssServerMain.js",
   "bin": {
-    "lsp-togo-css": "bin/lsp-togo-css"
+    "vscode-lsp-togo-css": "bin/vscode-lsp-togo-css"
   },
   "license": "MIT",
   "dependencies": {
     "@vscode/l10n": "^0.0.18",
-    "mocha": "^10.7.3",
     "vscode-css-languageservice": "^6.3.1",
     "vscode-languageserver": "^9.0.1",
-    "vscode-languageserver-types": "^3.17.5",
     "vscode-uri": "^3.0.8"
   }
 }

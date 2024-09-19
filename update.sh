@@ -33,8 +33,8 @@ popd
 
 # Cleanup excess cruft
 find packages/${PREFIX}-*/dist -name "*.map" -type f -delete
-rm -rf packages/${PREFIX}-*/lib/browser
-rm -rf packages/${PREFIX}-*/lib/test
+rm -rf packages/${PREFIX}-*/dist/browser
+rm -rf packages/${PREFIX}-*/dist/test
 
 # Check for missing dependencies
 for lang in css eslint html json; do

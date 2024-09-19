@@ -7,7 +7,9 @@ if (process.version < MIN_NODE) {
 
 const path = require("path");
 const fs = require("fs");
-const package_json = path.join(path.dirname(process.argv[1]), "..", "package.json");
+
+const package_dir = path.dirname(fs.realpathSync(process.argv[1]));
+const package_json = path.join(package_dir, "..", "package.json");
 const { name, version, main } = JSON.parse(fs.readFileSync(package_json, "utf8"));
 const version_string = `${name} ${version} (node ${process.version}, ${process.execPath})`;
 const command = process.argv.slice(2)[0];
