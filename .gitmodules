@@ -1,0 +1,6 @@
+[submodule "upstream/vscode-eslint"]
+	path = upstream/vscode-eslint
+	url = https://github.com/microsoft/vscode-eslint
+[submodule "upstream/vscode"]
+	path = upstream/vscode
+	url = https://github.com/microsoft/vscode

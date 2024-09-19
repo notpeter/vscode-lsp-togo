@@ -2,11 +2,13 @@
 
 Microsoft VSCode LSPs packaged as (unofficial) standalone npm packages:
 
-- `lsp-togo-css`
-- `lsp-togo-eslint`
-- `lsp-togo-html`
-- `lsp-togo-json`
-- `lsp-togo-markdown`
+| npm package       | binary                          |
+| ----------------- | ------------------------------- |
+| lsp-togo-css      | vscode-css-language-server      |
+| lsp-togo-eslint   | vscode-eslint-language-server   |
+| lsp-togo-html     | vscode-html-language-server     |
+| lsp-togo-json     | vscode-json-language-server     |
+| lsp-togo-markdown | vscode-markdown-language-server |
 
 See also:
 
@@ -18,6 +20,6 @@ Microsoft has made some great LSP (Language Server Protocol) tools for VSCode. S
 
 ## License
 
-This project is Copyright (c) Peter Tripp and available under the [MIT LICENSE](LICENSE).
+This project is Copyright (c) Peter Tripp and available under the [MIT License](LICENSE).
 
-The upstream dependencies are Copyright (c) Microsoft Corporation and also available under the MIT license. See the respective repositories for more information.
+VSCode is Copyright (c) Microsoft Corporation and available under the [MIT License](vscode/license.txt).
