@@ -1,0 +1,28 @@
+{
+  "name": "lsp-togo",
+  "version": "2024.9.18-pre",
+  "description": "VSCode Language Servers To-Go",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notpeter/lsp-togo.git"
+  },
+  "keywords": [
+    "lsp"
+  ],
+  "contributors": [
+    "notpeter",
+    "hrsh7th"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notpeter/lsp-togo/issues"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "homepage": "https://github.com/notpeter/lsp-togo",
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}
