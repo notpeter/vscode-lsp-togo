@@ -1,0 +1,8 @@
+{
+  "name": "lsp-togo-json",
+  "version": "2024.9.18-pre",
+  "contributors": ["notpeter"],
+  "bin": {"vscode-json-language-server": "bin/vscode-json-language-server"},
+  "license": "MIT",
+  "description": "JSON VSCode LSP ToGo"
+}

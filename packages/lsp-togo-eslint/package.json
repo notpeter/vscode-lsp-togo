@@ -1,0 +1,8 @@
+{
+  "name": "lsp-togo-eslint",
+  "version": "2024.9.18-pre",
+  "contributors": ["notpeter"],
+  "bin": {"vscode-eslint-language-server": "bin/vscode-eslint-language-server"},
+  "license": "MIT",
+  "description": "ESLint VSCode LSP ToGo"
+}

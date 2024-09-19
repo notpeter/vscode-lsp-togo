@@ -1,0 +1,8 @@
+{
+  "name": "lsp-togo-css",
+  "version": "2024.9.18-pre",
+  "contributors": ["notpeter"],
+  "bin": {"vscode-css-language-server": "bin/vscode-css-language-server"},
+  "license": "MIT",
+  "description": "CSS VSCode LSP ToGo"
+}

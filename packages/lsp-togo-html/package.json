@@ -1,0 +1,8 @@
+{
+  "name": "lsp-togo-html",
+  "version": "2024.9.18-pre",
+  "contributors": ["notpeter"],
+  "bin": {"vscode-html-language-server": "bin/vscode-html-language-server"},
+  "license": "MIT",
+  "description": "HTML VSCode LSP ToGo"
+}
