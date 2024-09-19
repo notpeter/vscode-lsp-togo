@@ -1,8 +1,27 @@
 {
   "name": "lsp-togo-json",
   "version": "2024.9.18-pre",
-  "contributors": ["notpeter"],
-  "bin": {"vscode-json-language-server": "bin/vscode-json-language-server"},
+  "description": "VSCode JSON Language Server ToGo",
+  "contributors": [
+    "notpeter"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "main": "dist/node/jsonServerz.js",
+  "bin": {
+    "lsp-togo-json": "bin/lsp-togo-json"
+  },
   "license": "MIT",
-  "description": "JSON VSCode LSP ToGo"
+  "dependencies": {
+    "@vscode/l10n": "^0.0.18",
+    "request-light": "^0.8.0",
+    "vscode-json-languageservice": "^5.4.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-uri": "^3.0.8"
+  }
 }

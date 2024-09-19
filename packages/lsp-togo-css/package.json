@@ -1,8 +1,28 @@
 {
   "name": "lsp-togo-css",
   "version": "2024.9.18-pre",
-  "contributors": ["notpeter"],
-  "bin": {"vscode-css-language-server": "bin/vscode-css-language-server"},
+  "description": "VSCode CSS Language Server ToGo",
+  "contributors": [
+    "notpeter"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "main": "dist/node/cssServerMain.js",
+  "bin": {
+    "lsp-togo-css": "bin/lsp-togo-css"
+  },
   "license": "MIT",
-  "description": "CSS VSCode LSP ToGo"
+  "dependencies": {
+    "@vscode/l10n": "^0.0.18",
+    "mocha": "^10.7.3",
+    "vscode-css-languageservice": "^6.3.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-types": "^3.17.5",
+    "vscode-uri": "^3.0.8"
+  }
 }
