@@ -14,9 +14,6 @@
     "hrsh7th"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/notpeter/lsp-togo/issues"
-  },
   "private": true,
   "workspaces": [
     "packages/*"
